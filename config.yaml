@@ -1,0 +1,179 @@
+baseURL: https://example.com/
+title: Working Theory
+copyright: © Copyright Alpha. All rights reserved.
+paginate: 5
+languageCode: en
+defaultContentLanguage: en
+enableInlineShortcodes: true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors: ["error-remote-getjson"]
+theme: hugo-8bits-theme
+
+# sectionPagesMenu: main
+
+enableRobotsTXT: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# OpenGraph
+title: "Working Theory"
+description: "Working Theory"
+images: ["site-feature-image.jpg"]
+
+# Google Analytics
+googleAnalytics: "UA-123-45"
+
+# Disqus
+disqusShortname: "yourdiscussshortname"
+
+# Parameters
+params:
+  dateFormat: 02 Jan 2006
+  author: Marcelo Calderoni
+  showSubheader: false
+
+  copyright:
+    sinceYear: 2026
+    owner: Marcelo Calderoni
+
+  languagesMenuEnabled: true
+
+  breadcrumb:
+    showCurrent: false
+
+  pagination:
+    loader: true
+
+  # OpenGraph
+  title: "Working Theory"
+  description: "Text about my cool site"
+  images: ["site-feature-image.jpg"]
+
+  # Social Networks
+  # social:
+  #   - network: twitter
+  #     link: "#"
+  #   - network: facebook
+  #     link: "#"
+  #   - network: instagram
+  #     link: "#"
+  #   - network: github
+  #     link: "#"
+  #   - network: google
+  #     link: "#"
+  #   - network: gmail
+  #     link: "#"
+  #   - network: medium
+  #     link: "#"
+  #   - network: linkedin
+  #     link: "#"
+  #   - network: twitch
+  #     link: "#"
+  #   - network: youtube
+  #     link: "#"
+  #   - network: reddit
+  #     link: "#"
+  #   - network: whatsapp
+  #     link: "#"
+
+  # Google Analytics
+  googleAnalytics: "UA-123-45"
+
+  # Disqus
+  disqusShortname: "yourdiscussshortname"
+
+  # Contact Form
+  contact:
+    formAction: "#"
+    validation:
+      namePattern: ^[a-zA-Z]{3,}[a-zA-Z\s\-]*$
+      emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
+
+  background:
+    image: "background-tokyo.png"
+    parallax: true
+    speed: 10
+
+# Menu
+languages:
+  en:
+    languageName: English
+    weight: 10
+    menu:
+      main:
+      - identifier: home
+        name: Home
+        url: /
+        weight: 10
+      - identifier: post
+        name: Posts
+        url: /post/
+        weight: 50
+      - identifier: tags
+        name: Concepts
+        url: /tags/
+        weight: 90
+      - #identifier: contact
+        #name: Contact
+        #url: /contact/
+        #weight: 90
+      - identifier: about
+        name: About
+        url: /about/
+        weight: 100
+    params:
+      navigation:
+        help: Help
+  es:
+    languageName: Español
+    weight: 20
+    menu:
+      main:
+      - identifier: home
+        name: Inicio
+        url: /
+        weight: 10
+      - identifier: post
+        name: Artículos
+        url: /post/
+        weight: 50
+      - identifier: tags
+        name: Conceptos
+        url: /tags/
+        weight: 90
+      - #identifier: contact
+        #name: Contacto
+        #url: /contact/
+        #weight: 90
+      - identifier: about
+        name: Sobre
+        url: /about/
+        weight: 100
+    params:
+      navigation:
+        help: Ayuda
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
