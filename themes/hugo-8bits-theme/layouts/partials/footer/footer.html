@@ -1,0 +1,9 @@
+<footer>
+  <div class="fixed-bottom p-3 {{ if not .IsHome }}bg-dark text-muted{{ end }} text-center">
+    <small>
+      {{ T "copyright" }} &copy; {{ .Site.Params.copyright.sinceYear }}-{{ now.Year }} - {{ .Site.Params.copyright.owner }}
+    </small>
+  </div>
+</footer>
+
+{{- partial "footer/scripts.html" . -}}

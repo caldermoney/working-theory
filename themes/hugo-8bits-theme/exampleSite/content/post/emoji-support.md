@@ -1,13 +1,12 @@
----
-title: "Emoji Support"
-author: "Hugo Authors"
-date: 2019-03-05
-description: "Guide to emoji usage in Hugo"
-tags:
-  - emoji
-draft: false
----
-
++++
+author = "Hugo Authors"
+title = "Emoji Support"
+date = "2019-03-05"
+description = "Guide to emoji usage in Hugo"
+tags = [
+    "emoji",
+]
++++
 
 Emoji can be enabled in a Hugo project in a number of ways. 
 <!--more-->
@@ -30,4 +29,18 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 }
 {{< /highlight >}}
 
-
+{{< css.inline >}}
+<style>
+.emojify {
+	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+@media screen and (max-width:650px) {
+  .nowrap {
+    display: block;
+    margin: 25px 0;
+  }
+}
+</style>
+{{< /css.inline >}}

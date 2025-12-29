@@ -1,0 +1,16 @@
+@use "_variables";
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url($custom_font_path) format("truetype");
+}
+
+body {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.bg-image {
+  background: url($background_image) center no-repeat fixed;
+  background-size: cover;
+}

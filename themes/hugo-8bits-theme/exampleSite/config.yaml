@@ -1,7 +1,7 @@
 baseURL: https://example.com/
-title: Working Theory
-copyright: © Copyright Alpha. All rights reserved.
-paginate: 5
+title: 8-bits
+copyright: © Copyright 8-bits. All rights reserved.
+paginate: 3
 languageCode: en
 defaultContentLanguage: en
 enableInlineShortcodes: true
@@ -20,8 +20,8 @@ taxonomies:
   series: series
 
 # OpenGraph
-title: "Working Theory"
-description: "Working Theory"
+title: "8-bits"
+description: "8-bits cool description"
 images: ["site-feature-image.jpg"]
 
 # Google Analytics
@@ -30,21 +30,15 @@ googleAnalytics: "UA-123-45"
 # Disqus
 disqusShortname: "yourdiscussshortname"
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-
 # Parameters
 params:
-  dateFormat: 02 Jan 2006
-  author: Marcelo Calderoni
+  dateFormat: 2006.01.02
+  author: Miguel Simoni
   showSubheader: false
 
   copyright:
-    sinceYear: 2026
-    owner: Marcelo Calderoni
+    sinceYear: 2020
+    owner: Miguel Simoni
 
   languagesMenuEnabled: true
 
@@ -54,40 +48,37 @@ params:
   pagination:
     loader: true
 
-
-
-
   # OpenGraph
-  title: "Working Theory"
+  title: "My cool site"
   description: "Text about my cool site"
   images: ["site-feature-image.jpg"]
 
   # Social Networks
-  # social:
-  #   - network: twitter
-  #     link: "#"
-  #   - network: facebook
-  #     link: "#"
-  #   - network: instagram
-  #     link: "#"
-  #   - network: github
-  #     link: "#"
-  #   - network: google
-  #     link: "#"
-  #   - network: gmail
-  #     link: "#"
-  #   - network: medium
-  #     link: "#"
-  #   - network: linkedin
-  #     link: "#"
-  #   - network: twitch
-  #     link: "#"
-  #   - network: youtube
-  #     link: "#"
-  #   - network: reddit
-  #     link: "#"
-  #   - network: whatsapp
-  #     link: "#"
+  social:
+    - network: twitter
+      link: "#"
+    - network: facebook
+      link: "#"
+    - network: instagram
+      link: "#"
+    - network: github
+      link: "#"
+    - network: google
+      link: "#"
+    - network: gmail
+      link: "#"
+    - network: medium
+      link: "#"
+    - network: linkedin
+      link: "#"
+    - network: twitch
+      link: "#"
+    - network: youtube
+      link: "#"
+    - network: reddit
+      link: "#"
+    - network: whatsapp
+      link: "#"
 
   # Google Analytics
   googleAnalytics: "UA-123-45"
@@ -103,7 +94,7 @@ params:
       emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
 
   background:
-    image: "background-tokyo.png"
+    image: "background-astro.png"
     parallax: true
     speed: 10
 
@@ -116,23 +107,19 @@ languages:
       main:
       - identifier: home
         name: Home
-        url: /
+        url: ""
         weight: 10
       - identifier: post
         name: Posts
-        url: /post/
+        url: post
         weight: 50
-      - identifier: tags
-        name: Concepts
-        url: /tags/
+      - identifier: contact
+        name: Contact
+        url: contact
         weight: 90
-      - #identifier: contact
-        #name: Contact
-        #url: /contact/
-        #weight: 90
       - identifier: about
         name: About
-        url: /about/
+        url: about
         weight: 100
     params:
       navigation:
@@ -144,23 +131,19 @@ languages:
       main:
       - identifier: home
         name: Inicio
-        url: /
+        url: ""
         weight: 10
       - identifier: post
         name: Artículos
-        url: /post/
+        url: post
         weight: 50
-      - identifier: tags
-        name: Conceptos
-        url: /tags/
+      - identifier: contact
+        name: Contacto
+        url: contact
         weight: 90
-      - #identifier: contact
-        #name: Contacto
-        #url: /contact/
-        #weight: 90
       - identifier: about
         name: Sobre
-        url: /about/
+        url: about
         weight: 100
     params:
       navigation:
