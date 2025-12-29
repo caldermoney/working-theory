@@ -24,14 +24,6 @@ taxonomies:
 # Google Analytics
 googleAnalytics: "UA-123-45"
 
-# Disqus
-disqusShortname: "yourdiscussshortname"
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 
 # Parameters
 params:
@@ -85,8 +77,6 @@ params:
   # Google Analytics
   googleAnalytics: "UA-123-45"
 
-  # Disqus
-  disqusShortname: "yourdiscussshortname"
 
   # Contact Form
   contact:
