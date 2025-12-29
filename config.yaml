@@ -60,7 +60,7 @@ params:
 
 
   # OpenGraph
-  title: "Working Theory"
+  title: "Working Theory Opengraph"
   description: "Text about my cool site"
   images: ["site-feature-image.jpg"]
 
