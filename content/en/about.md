@@ -1,10 +1,9 @@
-+++
-title = "About"
-description = "Personal Blog"
-date = "2026-01-01"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Marcelo Calderoni"
-+++
+---
+title: "About"
+description: "Personal Blog"
+date: 2026-01-01
+author: "Marcelo Calderoni"
+---
 
 A blog: a regularly updated website or web page, typically run by an individual or small group, written in an informal or conversational style.
 
