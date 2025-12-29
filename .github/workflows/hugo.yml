@@ -17,17 +17,21 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Hugo
+      - name: Setup Hugo (PINNED VERSION)
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: "0.124.1"
           extended: true
 
-      - name: Build
+      - name: Verify Hugo version
+        run: hugo version
+
+      - name: Build site
         run: hugo --minify
 
       - name: Upload Pages artifact
@@ -40,9 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+
     steps:
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.124.1"
-          extended: true
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
