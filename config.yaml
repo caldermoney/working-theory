@@ -109,14 +109,14 @@ languages:
         name: Concepts
         url: "tags/"
         weight: 90
-      - #identifier: contact
-        #name: Contact
-        #url: /contact/
-        #weight: 90
       - identifier: about
         name: About
         url: "about/"
         weight: 100
+      - #identifier: contact
+        #name: Contact
+        #url: /contact/
+        #weight: 90
     params:
       navigation:
         help: Help
@@ -137,14 +137,14 @@ languages:
         name: Conceptos
         url: "tags/"
         weight: 90
-      - #identifier: contact
-        #name: Contacto
-        #url: /contact/
-        #weight: 90
       - identifier: about
         name: Sobre
         url: "about/"
         weight: 100
+      - #identifier: contact
+        #name: Contacto
+        #url: /contact/
+        #weight: 90
     params:
       navigation:
         help: Ayuda
