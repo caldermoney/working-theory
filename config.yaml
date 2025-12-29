@@ -111,7 +111,7 @@ languages:
         weight: 90
       - identifier: about
         name: About
-        url: "about/"
+        url: "/en/about/"
         weight: 100
       - #identifier: contact
         #name: Contact
@@ -139,7 +139,7 @@ languages:
         weight: 90
       - identifier: about
         name: Sobre
-        url: "about/"
+        url: "/es/about/"
         weight: 100
       - #identifier: contact
         #name: Contacto
