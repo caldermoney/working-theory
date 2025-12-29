@@ -21,11 +21,6 @@ taxonomies:
   tag: tags
   series: series
 
-# OpenGraph
-title: "Working Theory"
-description: "Working Theory"
-images: ["site-feature-image.jpg"]
-
 # Google Analytics
 googleAnalytics: "UA-123-45"
 
