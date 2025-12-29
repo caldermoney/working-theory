@@ -1,4 +1,6 @@
-baseURL: https://caldermoney.github.io/working-theory/
+baseURL: "https://caldermoney.github.io/working-theory/"
+relativeURLs: true
+canonifyURLs: true
 title: Working Theory
 copyright: © Copyright Alpha. All rights reserved.
 paginate: 5
@@ -116,15 +118,15 @@ languages:
       main:
       - identifier: home
         name: Home
-        url: /
+        url: ""
         weight: 10
       - identifier: post
         name: Posts
-        url: /post/
+        url: "post/"
         weight: 50
       - identifier: tags
         name: Concepts
-        url: /tags/
+        url: "tags/"
         weight: 90
       - #identifier: contact
         #name: Contact
@@ -132,7 +134,7 @@ languages:
         #weight: 90
       - identifier: about
         name: About
-        url: /about/
+        url: "about/"
         weight: 100
     params:
       navigation:
@@ -148,11 +150,11 @@ languages:
         weight: 10
       - identifier: post
         name: Artículos
-        url: /post/
+        url: "post/"
         weight: 50
       - identifier: tags
         name: Conceptos
-        url: /tags/
+        url: "tags/"
         weight: 90
       - #identifier: contact
         #name: Contacto
@@ -160,7 +162,7 @@ languages:
         #weight: 90
       - identifier: about
         name: Sobre
-        url: /about/
+        url: "about/"
         weight: 100
     params:
       navigation:
