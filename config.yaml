@@ -96,59 +96,42 @@ languages:
   en:
     languageName: English
     weight: 10
+    baseURL: "https://caldermoney.github.io/working-theory/en/"
     menu:
       main:
-      - identifier: home
-        name: Home
-        url: ""
-        weight: 10
-      - identifier: post
-        name: Posts
-        url: "post/"
-        weight: 50
-      - identifier: tags
-        name: Concepts
-        url: "tags/"
-        weight: 90
-      - identifier: about
-        name: About
-        url: "about/"
-        weight: 100
-      - #identifier: contact
-        #name: Contact
-        #url: /contact/
-        #weight: 90
-    params:
-      navigation:
-        help: Help
+        - name: Home
+          url: "/working-theory/en/"
+          weight: 10
+        - name: Posts
+          url: "/working-theory/en/post/"
+          weight: 50
+        - name: Concepts
+          url: "/working-theory/en/tags/"
+          weight: 90
+        - name: About
+          url: "/working-theory/en/about/"
+          weight: 100
+
   es:
     languageName: Español
     weight: 20
+    baseURL: "https://caldermoney.github.io/working-theory/es/"
     menu:
       main:
-      - identifier: home
-        name: Inicio
-        url: /
-        weight: 10
-      - identifier: post
-        name: Artículos
-        url: "post/"
-        weight: 50
-      - identifier: tags
-        name: Conceptos
-        url: "tags/"
-        weight: 90
-      - identifier: about
-        name: Sobre
-        url: "about/"
-        weight: 100
-      - #identifier: contact
-        #name: Contacto
-        #url: /contact/
-        #weight: 90
-    params:
-      navigation:
-        help: Ayuda
+        - name: Inicio
+          url: "/working-theory/es/"
+          weight: 10
+        - name: Artículos
+          url: "/working-theory/es/post/"
+          weight: 50
+        - name: Conceptos
+          url: "/working-theory/es/tags/"
+          weight: 90
+        - name: Sobre
+          url: "/working-theory/es/about/"
+          weight: 100
+
+
 
 privacy:
   vimeo:
