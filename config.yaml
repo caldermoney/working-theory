@@ -1,11 +1,12 @@
 baseURL: "https://caldermoney.github.io/working-theory/"
-relativeURLs: true
+relativeURLs: false
 canonifyURLs: true
 title: Working Theory
 copyright: © Copyright Alpha. All rights reserved.
 paginate: 5
 languageCode: en
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 enableInlineShortcodes: true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
@@ -111,7 +112,7 @@ languages:
         weight: 90
       - identifier: about
         name: About
-        url: "/en/about/"
+        url: "about/"
         weight: 100
       - #identifier: contact
         #name: Contact
@@ -139,7 +140,7 @@ languages:
         weight: 90
       - identifier: about
         name: Sobre
-        url: "/es/about/"
+        url: "about/"
         weight: 100
       - #identifier: contact
         #name: Contacto
