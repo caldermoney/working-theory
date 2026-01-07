@@ -1,7 +1,10 @@
 ---
-date = '2026-01-06T22:50:54-06:00'
-draft = false
-title = 'Method for Goal Setting'
+date: '2026-01-06T22:50:54-06:00'
+draft: false
+title: "Method for Goal Setting"
+author: "Marcelo Calderoni"
+tags:
+    - Business
 ---
 
 # My Method for Goal Setting
