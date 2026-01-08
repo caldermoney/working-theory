@@ -13,6 +13,7 @@ This is the method that I came up with for goal setting although I wouldn’t cl
 
 ## Steps
 
+
 ### 1. Set a Goal
 May be ambitious or simple. There are no rules for choosing a goal, just whatever you want to achieve.
 
@@ -21,10 +22,12 @@ I want my business to generate $100,000,000.00 MXN ($100 Million pesos x year) i
 
 So the goal is to generate a $100 Million MXN Revenue.
 
+
 ### 2. Set a Time Frame
 My time frame is December 2027.  
 
 As I need to more than double my current revenue I am giving myself enough time for the goal to be realistic.
+
 
 ### 3. Break Down the Goal
 Break down the goal as much as necessary, but without over complicating it.
@@ -67,10 +70,12 @@ So we need to round up as there are no fractions in customers haha.
 
 So now we can put a plan of action to get 4 new customers x month and that will take us to our goal.
 
+
 ### 4. Plan of Action
 Put together a plan of action.
 
 This will take me a different study to resolve and analyze what would be the best plan of action for us.
+
 
 ### 5. Execute
 Execute
