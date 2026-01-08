@@ -57,16 +57,16 @@ languages:
     menu:
       main:
         - name: Home
-          url: /working-theory/
+          url: /
           weight: 10
         - name: Posts
-          url: /working-theory/post/
+          url: /post/
           weight: 50
         - name: Concepts
-          url: /working-theory/tags/
+          url: /tags/
           weight: 90
         - name: About
-          url: /working-theory/about/
+          url: /about/
           weight: 100
 
   es:
@@ -75,16 +75,16 @@ languages:
     menu:
       main:
         - name: Inicio
-          url: /working-theory/es/
+          url: /es/
           weight: 10
         - name: Artículos
-          url: /working-theory/es/post/
+          url: /es/post/
           weight: 50
         - name: Conceptos
-          url: /working-theory/es/tags/
+          url: /es/tags/
           weight: 90
         - name: Sobre
-          url: /working-theory/es/about/
+          url: /es/about/
           weight: 100
 
 privacy:
