@@ -60,13 +60,13 @@ languages:
           url: /
           weight: 10
         - name: Posts
-          url: /post/
+          url: /en/post/
           weight: 50
         - name: Concepts
-          url: /tags/
+          url: /en/tags/
           weight: 90
         - name: About
-          url: /about/
+          url: /en/about/
           weight: 100
 
   es:
