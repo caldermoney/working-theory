@@ -33,6 +33,7 @@ params:
 
   breadcrumb:
     showCurrent: false
+    enabled: false
 
   pagination:
     loader: true
