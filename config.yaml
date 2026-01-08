@@ -63,7 +63,7 @@ languages:
           url: /en/post/
           weight: 50
         - name: Concepts
-          url: /en/tags/
+          url: /tags/
           weight: 90
         - name: About
           url: /en/about/
