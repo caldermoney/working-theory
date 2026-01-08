@@ -1,8 +1,0 @@
-/* Add double spacing between paragraphs */
-.content p, 
-article p,
-.post-content p,
-.article-content p,
-main p {
-  margin-bottom: 2em;
-}

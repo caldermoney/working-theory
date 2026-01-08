@@ -10,9 +10,9 @@ tags:
 # My Method for Goal Setting
 
 This is the method that I came up with for goal setting although I wouldn’t claim it as mine but a compilation of all different methods I have studied, simplified and made my own. I always focus on practicality, applicability and simplicity.
-<br>
+{{< space >}}
 ## Steps
-<br>
+{{< space >}}
 
 
 ### 1. Set a Goal
@@ -23,7 +23,7 @@ I want my business to generate $100,000,000.00 MXN ($100 Million pesos x year) i
 
 So the goal is to generate a $100 Million MXN Revenue.
 
-<br>
+{{< space >}}
 
 ### 2. Set a Time Frame
 My time frame is December 2027.  
