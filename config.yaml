@@ -24,6 +24,8 @@ params:
   dateFormat: 02 Jan 2006
   author: Marcelo Calderoni
   showSubheader: false
+  customCSS: ["css/custom.css"]
+
 
   copyright:
     sinceYear: 2026
