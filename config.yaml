@@ -6,14 +6,10 @@ copyright: © Copyright Alpha. All rights reserved.
 paginate: 5
 languageCode: en
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 enableInlineShortcodes: true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors: ["error-remote-getjson"]
 theme: hugo-8bits-theme
-
-# sectionPagesMenu: main
 
 enableRobotsTXT: true
 
@@ -22,11 +18,8 @@ taxonomies:
   tag: tags
   series: series
 
-# Google Analytics
 googleAnalytics: "UA-123-45"
 
-
-# Parameters
 params:
   dateFormat: 02 Jan 2006
   author: Marcelo Calderoni
@@ -44,42 +37,8 @@ params:
   pagination:
     loader: true
 
-
-
-
-
-  # Social Networks
-  # social:
-  #   - network: twitter
-  #     link: "#"
-  #   - network: facebook
-  #     link: "#"
-  #   - network: instagram
-  #     link: "#"
-  #   - network: github
-  #     link: "#"
-  #   - network: google
-  #     link: "#"
-  #   - network: gmail
-  #     link: "#"
-  #   - network: medium
-  #     link: "#"
-  #   - network: linkedin
-  #     link: "#"
-  #   - network: twitch
-  #     link: "#"
-  #   - network: youtube
-  #     link: "#"
-  #   - network: reddit
-  #     link: "#"
-  #   - network: whatsapp
-  #     link: "#"
-
-  # Google Analytics
   googleAnalytics: "UA-123-45"
 
-
-  # Contact Form
   contact:
     formAction: "#"
     validation:
@@ -91,47 +50,42 @@ params:
     parallax: true
     speed: 10
 
-# Menu
 languages:
   en:
     languageName: English
     weight: 10
-    baseURL: "https://caldermoney.github.io/working-theory/en/"
     menu:
       main:
         - name: Home
-          url: "/working-theory/en/"
+          url: /working-theory/
           weight: 10
         - name: Posts
-          url: "/working-theory/en/post/"
+          url: /working-theory/post/
           weight: 50
         - name: Concepts
-          url: "/working-theory/en/tags/"
+          url: /working-theory/tags/
           weight: 90
         - name: About
-          url: "/working-theory/en/about/"
+          url: /working-theory/about/
           weight: 100
 
   es:
     languageName: Español
     weight: 20
-    baseURL: "https://caldermoney.github.io/working-theory/es/"
     menu:
       main:
         - name: Inicio
-          url: "/working-theory/es/"
+          url: /working-theory/es/
           weight: 10
         - name: Artículos
-          url: "/working-theory/es/post/"
+          url: /working-theory/es/post/
           weight: 50
         - name: Conceptos
-          url: "/working-theory/es/tags/"
+          url: /working-theory/es/tags/
           weight: 90
         - name: Sobre
-          url: "/working-theory/es/about/"
+          url: /working-theory/es/about/
           weight: 100
-
-
 
 privacy:
   vimeo:
