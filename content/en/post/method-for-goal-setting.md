@@ -30,7 +30,7 @@ My time frame is December 2027.
 
 As I need to more than double my current revenue I am giving myself enough time for the goal to be realistic.
 
-<br>
+{{< space >}}
 
 ### 3. Break Down the Goal
 Break down the goal as much as necessary, but without over complicating it.
@@ -73,13 +73,13 @@ So we need to round up as there are no fractions in customers haha.
 
 So now we can put a plan of action to get 4 new customers x month and that will take us to our goal.
 
-<br>
+{{< space >}}
 
 ### 4. Plan of Action
 Put together a plan of action.
 
 This will take me a different study to resolve and analyze what would be the best plan of action for us.
 
-<br>
+{{< space >}}
 ### 5. Execute
 Execute
